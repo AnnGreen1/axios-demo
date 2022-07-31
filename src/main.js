@@ -7,5 +7,5 @@ import request from '@/utils/request'
 const app = createApp(App)
 app.config.globalProperties.$axios = axios
 app.config.globalProperties.$request = request
-app.config.globalProperties.$axios.defaults.baseURL = '/api'
+// app.config.globalProperties.$axios.defaults.baseURL = '/api'
 app.use(router).mount('#app')
